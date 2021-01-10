@@ -4,3 +4,5 @@ puts nums.join
 puts nums.join(" ")
 
 puts nums.join(",")
+
+puts nums.join(" & ")
