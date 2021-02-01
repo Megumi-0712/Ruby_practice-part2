@@ -10,3 +10,8 @@ test2.pop
 
 puts test2.pop
 
+a = ["愛","友情","慈愛"]
+
+a.pop
+
+puts a.pop
