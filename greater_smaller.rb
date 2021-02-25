@@ -7,3 +7,7 @@ end
 if a <= 9 then
 	print "smaller\n"		#9より小さい場合
 end
+
+if a >= 10					#thenは省略することはできる
+	print "greater\n"
+end
