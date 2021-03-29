@@ -15,5 +15,5 @@ i = 0
 	if i == 3
 		next
 	end
-	p[i, lang]
+	p [i, lang]
 end
