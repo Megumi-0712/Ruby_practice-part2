@@ -1,0 +1,5 @@
+Array.new							#新しい配列を作る
+Fire.open("some_file")				#新しいファイルオブジェクトを作る
+Time.now							#新しいTimeオブジェクトを作る
+File.rename(oldname, newname)		#ファイル名を変更する
+Array["a", "b", "c"]				#["a", "b", "c"] という配列を生成する
