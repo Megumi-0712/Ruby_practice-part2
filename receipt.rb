@@ -4,7 +4,7 @@ class Receipt
 		@lines = []
 	end
 
-	def lines = (lines)
+	def lines=(lines)
 		@lines = lines
 	end
 
