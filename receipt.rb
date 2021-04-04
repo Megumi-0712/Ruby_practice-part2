@@ -10,7 +10,7 @@ class Receipt
 
 	def calc
 		total = 0
-		@lines.each do |lime|
+		@lines.each do |line|
 			total += line[:price] * line[:num]
 		end
 		total
