@@ -1,9 +1,10 @@
 class Receipt
-	def name
+
+	def name			# @nameを参照にする
 		@name
 	end
 
-	def name =(name)
+	def name =(name)	# @nameを変更する
 		@name = name
 	end
 
