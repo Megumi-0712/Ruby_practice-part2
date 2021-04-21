@@ -8,3 +8,9 @@ class AccessTest
 	def priv
 		puts "priv is a private method."
 	end
+
+	private :priv
+end
+access = AccessTest.new
+access.pub
+access.priv
