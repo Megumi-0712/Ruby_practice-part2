@@ -1,4 +1,4 @@
-tags ["A", "B", "C"]
+tags = ["A", "B", "C"]						#tag内に含まれている三種類の名前の中に上から名前は含まれているか含まれていないか、この名前は使用されていないと表示される
 
 tags.each do |tagname|
 	case tagname
