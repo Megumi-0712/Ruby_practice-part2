@@ -4,7 +4,7 @@ array.each do |item|
 	case item
 	when String
 		puts "item is a String."
-	When Numeric
+	when Numeric
 		puts "item is a Numeric."
 	else
 		puts "item is a something."
