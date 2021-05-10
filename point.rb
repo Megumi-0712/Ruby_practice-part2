@@ -14,3 +14,11 @@ class Point
 		return self
 	end
 end
+
+p0 = Point.new
+p1 = Point.new(1.0, 2.0)
+
+p [ p0.x, p0.y ]
+p [ p1.x, p1.y ]
+
+p0.x = 10.0									#ここでエラー(NoMethodError)が出る
