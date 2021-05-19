@@ -11,8 +11,8 @@ module R
 end
 
 class Y
-	prepend R
-	prepend T
+	include T
+	include R
 
 	def meth
 		"Y#meth"
