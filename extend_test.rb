@@ -6,6 +6,7 @@ end
 
 
 str = "たのしいRuby"
-str.exdent(Edition)
+str.extend(Edition)
+
 
 p str.edition(6)
