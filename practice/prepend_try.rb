@@ -4,17 +4,22 @@ module T
 	end
 end
 
+module R
+	def meth
+		"R#meth"
+	end
+end
 
-class C
-	prepend T
-
+class Y
+	include T
+	include R
 
 	def meth
-		"C#meth"
+		"Y#meth"
 	end
 end
 
 
-c = C.new
-p C.ancestors
-p c.meth
+y = Y.new
+p Y.ancestors
+p y.meth
